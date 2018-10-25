@@ -1,0 +1,66 @@
+
+h2 {
+  margin-bottom: 20px;
+  font-style: oblique;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+body {
+  background-color: #E1F5FE;
+}
+
+a {
+  color: white;
+  font-size: 125%;
+}
+
+a.nav-link:hover, a.nav-link:focus {
+  background-color: #3B5CA0;
+  color: white;
+}
+
+.w-100 {
+  max-height: 350px;
+}
+
+#header-img {
+  background-color: #3B5997;
+}
+
+#main-nav {
+  background-color: #4267B2;
+}
+
+#blog-tile {
+    background: url('../images/blog_icon_360_250.png') no-repeat;
+    background-position: center;
+}
+
+#git-tile {
+    background: url('../images/Octocat_360_250.png') no-repeat;
+    background-position: center;
+}
+
+#blog-tile, #git-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #4CAF50;
+    overflow: hidden;
+}
+
+#blog-tile span, #git-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
