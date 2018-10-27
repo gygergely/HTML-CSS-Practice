@@ -1,0 +1,14 @@
+.menu-section {
+  border: solid 1px black;
+  margin: 10px 0;
+  background-color: #FAFBFC;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+a.nav-link{
+  background-color: #52ACCC;
+  border: solid 1px black;
+}
